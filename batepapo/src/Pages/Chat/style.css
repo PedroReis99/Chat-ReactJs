@@ -1,0 +1,74 @@
+div#Conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#Conteudo button#voltar{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272727;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form#Mensagem{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+form#Mensagem input{
+    width: 95%;
+    margin-left: 10px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+form#Mensagem button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    background-color: #0B2F3A;
+    color: #FFFFFF; 
+}
+
+section#Post{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 98%;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    scroll-margin: 4px;
+    overflow-x: hidden; 
+    overflow-x: auto;
+}
+
+section#Post article header span{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+section#Post article p{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 50px;
+}

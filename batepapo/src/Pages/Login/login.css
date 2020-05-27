@@ -1,0 +1,54 @@
+form#login{
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto 0;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form#login input{
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+form#login button{
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #272727;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form#login a{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #272727;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button#Voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272727;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
